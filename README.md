@@ -1,7 +1,3 @@
-We'll create a **custom agent** that uses declarative tool definitions from `tsp.json` files, along with documentation you could use as official reference. This approach gives you the flexibility of MCP-like tool definitions without the overhead of separate servers.
-
----
-
 ## 1. What is tsp.json?
 
 `tsp.json` (Tool Specification) is a configuration file that defines a tool's metadata, parameters, and the location of its TypeScript implementation. Instead of running a separate MCP server, the agent loads these definitions directly and calls the functions in‑process.
